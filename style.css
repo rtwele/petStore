@@ -1,0 +1,21 @@
+#logo {
+    height: 200px;
+}
+
+.container, #header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-links {
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.navbar {
+    border-bottom: 20px solid gray;
+}
+
+.carousel-inner {
+    border-bottom: 20px solid gray;
+}
