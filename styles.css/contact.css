@@ -1,0 +1,135 @@
+.container #header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 150px;
+    justify-items: flex-start;
+}
+
+.header-links li{
+    list-style-type: none;
+    line-height: 50px;
+    color: white;
+}
+a{
+    color:white;
+}
+.navbar{
+    background-color: rgb(14, 221, 42);
+    max-height: 190px;
+    border-bottom: white;
+    border-width: 5px;
+    border-style: solid;
+}
+h1 {
+    font-size: 55pt;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50pt;
+    text-shadow: 2px 2px 0px rgb(24, 161, 24);   
+}
+body {
+    font-size: 18pt;
+}
+#emailbutton {
+    width: 300px;
+    /* background-color: rgb(183, 233, 243); */
+    /* margin-bottom: 30px; */
+    margin-top:20px;
+    -webkit-box-shadow:0 0 20px rgb(10, 226, 100); 
+    -moz-box-shadow: 0 0 20px rgb(10, 226, 100); 
+    box-shadow:0 0 10px rgb(10, 226, 100);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(10, 226, 100);
+    border-radius: 5px;
+    color: rgb(1, 2, 2);
+    font-weight: bold;
+
+}
+/* background image */
+
+.backgroundpicture{
+    
+    
+    background-color: black;
+    
+
+  
+    
+    
+}
+
+/* element contair for email input */
+.fillin {
+
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 10px;
+    height: 615px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(24, 161, 24);
+    border-radius: 10px;
+       /* neon glow on border */
+    -webkit-box-shadow:0 0 20px rgb(24, 161, 24); 
+    -moz-box-shadow: 0 0 20px rgb(24, 161, 24); 
+    box-shadow:0 0 15px rgb(24, 161, 24);
+    
+    
+}
+
+/* text for email input */
+
+h5 {
+color: white;
+font-size: 20pt;
+line-height: 50px;
+
+/* overflow-wrap: break-word; */
+
+word-break: break-word;
+/* hyphens: auto; */
+}
+
+/* box for email input */
+#input1 {
+    text-align: center;
+    background-color: rgb(10, 226, 100);
+    width: 380px;
+    
+}
+/* box for message input */
+textarea {
+    height: 250px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgb(10, 226, 100);
+    width: 380px;
+    
+
+}
+
+/* submit email button */
+#emailbutton {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+}
+
+/* heading in email input form */
+
+h2 {
+    font-size: 40pt;
+    color: white;
+    
+
+}
